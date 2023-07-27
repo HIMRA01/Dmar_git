@@ -1,0 +1,49 @@
+body{
+/* 
+background-color: black; */
+
+}
+
+.bloc{
+border: black solid 5px;
+border-radius: 50px 15px;
+width: 60%;
+margin: auto;
+height: 400px;
+background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/11/15-Presentation-Background-Examples16.jpeg);
+
+}
+
+
+label{
+
+    /* margin: 200px; */
+
+padding: 120px;
+
+}
+
+input{
+
+height: 30px;
+margin: 15px;
+width: 450px;
+}
+
+form{
+
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.envoi{
+
+padding-left:700px ;
+padding-top: 50px;
+
+}
+.envoi input{
+
+width: 70px;
+
+}
