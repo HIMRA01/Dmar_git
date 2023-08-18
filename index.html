@@ -8,8 +8,26 @@
  <title>Formulaire d'inscription</title>
 </head>
 <body>
+
+
+
 <div class="bloc">
-    <form action="/traiter_formulaire" method="post">
+<form action="/traiter_formulaire" method="post">
+
+ <label for="pet-select">Choose a pet:</label>
+
+<select name="pets" id="pet-select">
+  <option value="">--Please choose an option--</option>
+  <option value="dog">Dog</option>
+  <option value="cat">Cat</option>
+  <option value="hamster">Hamster</option>
+  <option value="parrot">Parrot</option>
+  <option value="spider">Spider</option>
+  <option value="goldfish">Goldfish</option>
+</select>
+
+
+ 
         <label for="first_name">Prénom :</label>
         <input type="text" id="first_name" name="first_name" required><br>
 
@@ -18,10 +36,29 @@
 
         <label for="email">E-mail :</label>
         <input type="email" id="email" name="email" required><br>
+
+    </form>
+
+<div class="pays"  >
+     <label  for="q1">conditions d'utilisateur</label>
+        <p class="question1">
+          <input type="checkbox" id="q1" name="reponse01" />j'accepte 
+          <input type="checkbox" id="q1" name="reponse02" />réfuse 
+     
+        </p>
+        <br />
+
+
+               <label for="q2">Qui seront vos accompagnateurs?</label>
+        <p>
+          <input type="radio" id="q2" name="reponse11" />En famille
+          <input type="radio" id="q2" name="reponse12" checked />Entre amis
+          <input type="radio" id="q2" name="reponse13" />Solo
+        </p>
+</div>
 <div class="envoi">
         <input  type="submit" value="Envoyer">
     </div>
-    </form>
 </div>
 </body>
 </html>

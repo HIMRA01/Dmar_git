@@ -1,49 +1,90 @@
-body{
-/* 
+body {
+  /* 
 background-color: black; */
-
 }
 
-.bloc{
-border: black solid 5px;
-border-radius: 50px 15px;
-width: 60%;
-margin: auto;
-height: 400px;
-background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/11/15-Presentation-Background-Examples16.jpeg);
+.bloc {
+  border: rgb(201, 0, 0) solid 5px;
+  border-radius: 50px 15px;
+  width: 60%;
+  margin: auto;
+  height: 950px;
+  background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/11/15-Presentation-Background-Examples16.jpeg);
+}
 
+label {
+  /* margin: 200px; */
+
+  padding: 120px;
+}
+
+input {
+  height: 30px;
+  margin: 15px;
+  width: 450px;
+}
+
+form {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.envoi {
+  padding-left: 700px;
+  padding-top: 50px;
+}
+.envoi input {
+  width: 70px;
+}
+.pays {
+  display: block;
+}
+.question1 {
+  margin: auto;
 }
 
 
-label{
 
-    /* margin: 200px; */
 
-padding: 120px;
 
+ .cote{
+
+    margin: auto;
+    /* padding: 10px; */
+ }
+
+/* .date,  
+label {
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
 }
 
-input{
+.date,
+input,
+label {
+  margin: 0.4rem 0;
+} */
 
-height: 30px;
-margin: 15px;
-width: 450px;
+
+.message label,
+textarea {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
 }
 
-form{
-
-    padding-top: 50px;
-    padding-left: 50px;
+.message textarea {
+  /* padding: 10px; */
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  padding-top: 100px;
 }
 
-.envoi{
-
-padding-left:700px ;
-padding-top: 50px;
-
-}
-.envoi input{
-
-width: 70px;
-
+.message label {
+  display: block;
+  margin-bottom: 10px;
 }
